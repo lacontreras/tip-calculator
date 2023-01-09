@@ -17,6 +17,8 @@ export const NewItemForm = ({ onSubmit }) => {
     if (typeof onSubmit === 'function') {
       onSubmit(name, price);
     }
+    
+    
 
     setName('');
     setPrice(0);
