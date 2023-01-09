@@ -1,10 +1,10 @@
-import {MenuItems} from '../components/MenuItems'
-import { connect } from "react-redux"
+import { MenuItems } from '../components/MenuItems';
+import { connect } from 'react-redux';
 
-const mapStateToProps = (state)=>{
-    return {
-        items: state.items
-    }
-}
+const mapStateToProps = (state) => {
+  return {
+    items: state.items
+  };
+};
 
-export const MenuItemsContainer = connect(mapStateToProps)(MenuItems)
+export const MenuItemsContainer = connect(mapStateToProps)(MenuItems);
